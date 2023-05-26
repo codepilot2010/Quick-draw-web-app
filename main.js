@@ -16,7 +16,7 @@ function updateCanvas()
     random_number=Math.floor((Math.random()*quick_draw_data_set.length)+1);
 console.log(quick_draw_data_set[random_number]);
 sketch=quick_draw_data_set[random_number];
-document.getElementById("p_sketchtobedrawn").innerHTML='sketch to be drawn'+sketch;
+document.getElementById("p_sketchtobedrawn").innerHTML='sketch to be drawn  '+sketch;
 
 }
 
